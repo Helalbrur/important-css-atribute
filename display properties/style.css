@@ -1,0 +1,28 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: lightblue;
+}
+.block{
+	background: #eee;
+	color: #000;
+	width: 100px;
+	height: 100px;
+	display: block;
+}
+.inline{
+	background: lightgreen;
+	color: #000;
+	width: 100px;
+	height: 100px;
+	display: inline;
+}
+.inlineblock{
+	background: lightyellow;
+	color: #000;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}

@@ -1,0 +1,36 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: lightblue;
+
+}
+.content{
+	background: lightgreen;
+	
+	width: 900px;
+	height: 200;
+}
+.content.menubar{
+	position: absolute;
+	left: 0px;
+	width: 299px;
+	height: auto;
+	z-index: 2;
+}
+.content.maincontent{
+	position: absolute;
+	left: 310px;
+	width: 299px;
+	height: auto;
+	z-index: 1;
+}
+.content.sidebar{
+	position: absolute;
+	left: 620px;
+	width: 299px;
+	height: auto;
+	z-index: 0;
+
+}

@@ -1,0 +1,23 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+body{
+	background: lightblue;
+}
+.outer{
+	width: 600px;
+	height: auto;
+	background: #000;
+	/*color:#fff;*/
+	margin: 0px auto;  /*takes the outer class into center*/
+}
+.inner{
+	width: 200px;
+	height: auto;
+	background: white;
+	color: #000;
+	margin: 0px auto;   /*takes the inner class into center*/
+	text-align: center;  /*takes the inner class's text into center*/
+}
